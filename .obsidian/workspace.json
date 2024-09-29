@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "555166b790a9e84d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce6b306e0c5763db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb69643756780c53",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aecadf315aa62f90",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d6bec68a0675217",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac2ab095dbe81300",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "389215b4f8715d79",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7318e2be48c0b6c6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 306.5
+  },
+  "right": {
+    "id": "2d63ed50f38d0440",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9a444100bd9dfbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c45c88dc03cf0a19",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d84f9ed330987664",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7f682578db9594de",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7663b92c0179b037",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "23ef0fc04886323e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "publish:Publish changes...": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "ac2ab095dbe81300",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "2024-09-29.md",
+    "Pasted image 20240815200738.png.md",
+    "OS/Chapter 3.md",
+    "Astrology basics.pdf",
+    "VedicReport5-9-202410-35-54PM.pdf",
+    "OS/Chapter 2.md",
+    "OS/Chapter 1.md",
+    "CN2/Application Layer.md",
+    "CN2/Multimedia.md",
+    "CN2/4th approach.png",
+    "CN2/3rd approach.png",
+    "CN2/2nd approach.png",
+    "CN2/1stapproach to stream.png",
+    "CN2/DNS CLIENT SERVER.png",
+    "OS/process vs threads.png",
+    "Pasted image 20240815200738.png",
+    "OS/Context switching.png",
+    "OS/Schedulers.png",
+    "Pasted image 20240815200043.png",
+    "OS",
+    "JAVA/Loops.md",
+    "CN2",
+    "JAVA/Conditional Statements.md",
+    "JAVA/Introduction to java.md",
+    "JAVA"
+  ]
+}

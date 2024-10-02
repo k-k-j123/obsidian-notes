@@ -30,7 +30,7 @@ multimedia means different types of media like audio video text images animation
 			 - If a picture is not in color each pixel can be represented by 8-bit integer if the picture is in color each picture is represented by 24 bits with each 8 bit representing red blue or green 
 			 - the whole picture is divided into blocks of 8x8 pixels and passed through 3 phases
 				 - phase 1 :discrete cosine transform (DCT):
-					 - In DCT each block of 64 pixels goes through a transformation the transformation changes the 64 values so that the relative relationship between pixels are kept but the redundancies are revealed. 
+					 - In DCT each block of 64 pixels goes through a transformation the transformation changes the values so that the relative relationship between pixels are kept but the redundancies are revealed. 
 				- phase 2 :quantization
 					- it is lossy compression technique in which the values are quantized to reduce the number of bits needed for encoding
 					- here we divide the number by a constant and then drop the fraction this reduces the required number of bits even more 
@@ -67,3 +67,31 @@ multimedia means different types of media like audio video text images animation
 		- using RTSP we can control the playing of audio / video. RTSP is an out-of-band connection protocol that is similar to the second connection in FTP
 		- ![[4th approach.png]]
 
+## Streaming live audio and video
+In Streaming live audio and video the user receives the file in real time as its being created example includes live television etc
+live streaming is better suited to protocols like UDP and RTP (Real-time transport protocol )
+
+## Real time interactive audio and video
+in real-time interactive audio/video people use internet to achieve communication with each other 
+some characteristic of it are 
+1. Time relationship 
+	1. real time data on a packet switched network require preservation of the time relationship between the packets of a session
+	2. for eg imagine there are 3 packets the first packet start at 0s the second at 10s and the third at 20s 
+	3. also imagine that it takes 1s to reach the receiver (equal delay)
+	4. then at the receiver can play the packet at 1s , 11s, and 21s respectively
+2. Timestamp 
+	1. it is a solution of jitter. here each packet has a timestamp different from its arrival time 
+	2. the timestamp shows the time the packet was produced relative to the first packet then the receiver can add this time to the time at which it starts the playback
+	3. for eg if packets are timestamped as 0s 10s and 20s and at the receiver the first packet reaches at 8s then the second packet will be played at 18s and the third at 28s hence there are no gaps 
+3. Playback buffer
+	1. the playback buffer is used to store the packets received until they are ready to be played 
+	2. the receiver delays playing data until a threshold is reached 
+4. Ordering
+	1. we need to number packets so that the receiver knows if a particular packet has been lost
+	2. suppose the timestamps are 0, 10 and 20 if second packet start the receiver assumes that the second packet is the packet with timestamp 20
+5. multicasting
+	1. real time traffic needs to support multicasting for communication can be between multiple sources and receivers
+6. translation
+	1. sometimes we need to translate high bandwidth data to low bandwidth data for better transmission  
+7. Mixing
+	1. if there are more than one sources transmitting then we need to converge data from multiple sources 

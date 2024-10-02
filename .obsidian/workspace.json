@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eb69643756780c53",
+            "id": "9ca93b8a8c8a607b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OS/Chapter 4.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OS/Chapter 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OS/Chapter 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OS/Chapter 4.md"
+              }
             }
           },
           {
@@ -134,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,28 +157,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ac2ab095dbe81300",
+  "active": "9ca93b8a8c8a607b",
   "lastOpenFiles": [
+    "OS/Chapter 3.md",
+    "OS/Chapter 4.md",
+    "Untitled.md",
+    "OS/critical section.png",
+    "OS/Chapter 2.md",
+    "OS/Context switching.png",
+    "OS/Chapter 1.md",
+    "CN2/Multimedia.md",
+    "CN2/Application Layer.md",
+    "CN2/DNS CLIENT SERVER.png",
+    "Blockchain/Chapter 1.md",
+    "Blockchain/working of blockchain.png",
+    "Blockchain",
     "Untitled.canvas",
     "2024-09-29.md",
     "Pasted image 20240815200738.png.md",
-    "OS/Chapter 3.md",
     "Astrology basics.pdf",
     "VedicReport5-9-202410-35-54PM.pdf",
-    "OS/Chapter 2.md",
-    "OS/Chapter 1.md",
-    "CN2/Application Layer.md",
-    "CN2/Multimedia.md",
     "CN2/4th approach.png",
     "CN2/3rd approach.png",
     "CN2/2nd approach.png",
     "CN2/1stapproach to stream.png",
-    "CN2/DNS CLIENT SERVER.png",
     "OS/process vs threads.png",
     "Pasted image 20240815200738.png",
-    "OS/Context switching.png",
-    "OS/Schedulers.png",
-    "Pasted image 20240815200043.png",
     "OS",
     "JAVA/Loops.md",
     "CN2",
